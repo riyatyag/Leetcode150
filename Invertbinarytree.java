@@ -28,7 +28,7 @@
  * Space Complexity: O(h) for the recursive approach, where h is the height of the deeper tree (due to the call stack). In the worst case (skewed tree), it can be O(n). O(w) for the iterative approach, where w is the maximum width of the trees (due to the queue). In the worst case (complete binary trees), it can be O(n).
  *
  * Optimal Solution: Both recursive and iterative approaches achieve O(n) time complexity. The space complexity differs based on the tree structure and the chosen method.
- */
+ **/
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
