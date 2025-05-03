@@ -32,7 +32,7 @@
  * Space Complexity: O(h), where h is the height of the tree, as the stack will store at most h nodes. In the worst case (skewed tree), h can be n, so the space complexity is O(n).
  *
  * Optimal Solution: The stack-based approach achieves the follow-up requirements of average O(1) time for next() and O(h) memory.
- */
+ **/
 class BSTIterator {
     private Stack<TreeNode> stack;
 
