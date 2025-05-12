@@ -15,7 +15,7 @@
      *
      * Optimal Solution:
      * The provided solution implements the described modified binary search approach.
-     */
+     **/
     class Solution {
              public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
